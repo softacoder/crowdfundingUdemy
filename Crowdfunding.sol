@@ -10,7 +10,7 @@ contract CrowdFunding{
     uint public deadline;
     uint public goal;
     uint public raisedAmount;
-
+}
     constructor(uint _goal, uint _deadline){
         goal = _goal;
         deadline = block.timestamp + _deadline;
